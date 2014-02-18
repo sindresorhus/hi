@@ -91,6 +91,15 @@ body {
 	-webkit-backface-visibility: hidden;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: inherit;
+}
+
 h1 {
 	font-size: 70px;
 	line-height: 1;
@@ -130,7 +139,7 @@ a {
 	font-size: 70px;
 	font-weight: 300;
 	position: absolute;
-	top: 60px;
+	top: 20px;
 	width: 100%;
 }
 
@@ -193,6 +202,7 @@ a {
 @media (max-width: 767px) {
 	.profile .name {
 		font-size: 40px;
+		top: 40px;
 	}
 }
 
