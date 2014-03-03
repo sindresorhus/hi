@@ -199,6 +199,14 @@ a {
 	font-size: 20px;
 }
 
+#footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   padding-bottom: 5px;
+}
+
 @media (max-width: 767px) {
 	.profile .name {
 		font-size: 40px;
