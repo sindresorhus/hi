@@ -199,6 +199,15 @@ a {
 	font-size: 20px;
 }
 
+#banner {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   text-align: center;
+   padding-top: 5px;
+   background-color: orange;
+} 
+
 #footer {
    position: absolute;
    bottom: 0;
