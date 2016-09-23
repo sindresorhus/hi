@@ -32,9 +32,9 @@
     
     var lastElement = false;
     $('.about span').each(function() {
-        if (lastElement && lastElement.offset().top != $(this).offset().top) {
+        if (lastElement && lastElement.offset().top !== $(this).offset().top) {
             $(lastElement).addClass("nobullet");
         }
         lastElement = $(this);
-    }).last().addClass("nobullet");
+    });
 })();
