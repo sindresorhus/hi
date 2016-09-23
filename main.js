@@ -29,4 +29,12 @@
 	setTimeout(function () {
 		$('.credit').addClass('activate');
 	}, 1000);
+    
+    var lastElement = false;
+    $('.about span').each(function() {
+        if (lastElement && lastElement.offset().top !== $(this).offset().top) {
+            $(lastElement).addClass("nobullet");
+        }
+        lastElement = $(this);
+    });
 })();
