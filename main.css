@@ -135,6 +135,10 @@ a {
 	font-weight: 300;
 }
 
+.about .nobullet {
+    display: none;
+}
+ 
 .about span {
 	opacity: 0.3;
 }
@@ -142,6 +146,7 @@ a {
 .about a {
 	transition: all 0.3s ease-out;
 	-webkit-transition: all 0.3s ease-out;
+	white-space: nowrap;
 }
 
 .about a:hover {
